@@ -5,7 +5,7 @@ def linear_search(arr, target):
     return -1  # Return -1 if the target element is not found
 
 # Example usage:
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr = reversed([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 target = 7
 result = linear_search(arr, target)
 if result != -1:
